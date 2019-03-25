@@ -13,7 +13,7 @@
         duration = 50
         break
       case 'fast':
-        duration = 1
+        duration = 0
         break
     }
   })
@@ -35,6 +35,7 @@
     }, duration)
   }
   let code = `
+  /*让我们用CSS画一个哆啦A梦吧*/
   /*首先画个头*/
   #outer-line {
     width: 780px;
